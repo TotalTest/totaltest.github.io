@@ -72,6 +72,17 @@ h2 {
     padding-bottom: 15px;
     padding-top: 2px;
 }
+
+.navbar-right > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #D0CDCD;
+}
+
+.navbar-right > li > a:hover {
+    color: inherit;
+    background-color: inherit;
+}
 /* temporary css for contact on top right nav */
 
 button {
