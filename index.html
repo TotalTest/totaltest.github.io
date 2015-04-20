@@ -1,7 +1,134 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Total Test Ltd</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/ico" href="/img/favicon.ico" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+    <link href="custom.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="customjs.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header id="header" class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                Contact
+                <!--<span class="icon-bar"></span>-->
+                <!--<span class="icon-bar"></span>-->
+            </button>
+                <img id="logo" src="img/TotalTestLOGO.png" alt="logo" height="60" width="364"/>
+                <img id="logo-icon" src="img/TotalTestLOGO_icon.png" alt="logo-small" height="45" width="45" />
+            </div>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <div>
+                <ul class="nav navbar-right">
+                    <li>Tel: +447984473892</li>
+                    <li>Email: info@totaltestltd.co.uk</li>
+                    <!--<li class="active"><a href="#">Home</a></li>-->
+                    <!--<li><a href="#">Blog</a></li>-->
+                    <!--<li><a href="Contact.html">Contact</a></li>-->
+                </ul>
+                </div>
+        </div>
+        </div>
+    </header>
+    <div class="container" id="main-container">
+        <section id="info" class="jumbotron">
+            <h2 id="title" class="text-center">What We Do</h2>
+            <!--<div id="info-header"><h1 class="text-center">What We Do</h1></div>-->
+            <p class="text-left main-content">
+                Here at Total Test Ltd we offer quality assurance through manual and automated processes. 
+                Specialising in web and mobile platform testing solutions using the latest technologies to ensure your product is fit for the live environment.
+                <br /><br />
+                Not only do we pride ourselves on the skills we can offer, but also offer solutions on best practices throughout the software development life-cycle.
+                This includes analysing requirements thoroughly from the start, where the breakdown becomes living documentation as well as executable specification, using a clean automation framework
+                allowing early testing which ultimately results in the development stage to be seamless.
+            </p>
+        </section>
+        <section class="row">
+            <h2 class="text-center">Testing throughout the SDLC</h2>
+            <div class="col-md-12">
+                <div id="Carousel" class="carousel slide">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#Carousel" data-slide-to="1"></li>
+                        <li data-target="#Carousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="thumbnail text-center" style="max-width:100%;">
+                                        <div class="thumbnail-heading">
+                                            <p>Requirements Analysis</p>
+                                            <p>BDD | Gherkin</p>
+                                        </div>
+                                        <img src="/img/feature.png" alt="Feature"/>
+                                    </div>
+                                </div>
+                            </div><!--.row-->
+                        </div><!--.item-->
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="thumbnail text-center" style="max-width:100%;">
+                                        <div class="thumbnail-heading">
+                                            <p>Tests before Development</p>
+                                            <p>TDD | Selenium | Appium</p>
+                                        </div>
+                                        <img src="/img/tdd.png" alt="TDD" />
+                                    </div>
+                                </div>
+                            </div><!--.row-->
+                        </div><!--.item-->
+
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="thumbnail text-center" style="max-width:100%;">
+                                        <div class="thumbnail-heading">
+                                            <p>Regression Testing</p>
+                                            <p>Overnightly Builds | TeamCity</p>
+                                        </div>
+                                        <img src="/img/RegressTest.png" alt="Regression"/>
+                                    </div>
+                                </div>
+                            </div><!--.row-->
+                        </div><!--.item-->
+
+                    </div><!--.carousel-inner-->
+                    <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                    <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                </div><!--.Carousel-->
+
+            </div>
+        </section>
+    </div>
+    <footer class="navbar navbar-inverse" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-lg-4 col-md-4 copyright">
+                    <p class="navbar-text">&copy; 2015 Total Test Ltd</p>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-lg-8 col-md-8">
+                    <div class="navbar-text pull-right social-link">
+                        <a href="http://uk.linkedin.com/in/prabsharangahir" target="_blank">
+                            <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" alt="View Prabsharan Gahir's profile on LinkedIn">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
